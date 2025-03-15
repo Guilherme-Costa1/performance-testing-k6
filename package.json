@@ -1,0 +1,21 @@
+{
+  "name": "teste-k6-estrutural",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:k6": "k6 run src/tests/cenarios.js",
+    "test:k6:headless": "k6 run --out json=report.json src/tests/cenarios.js",
+    "test:k6:summary": "k6 run --summary-export=summary.json src/tests/cenarios.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
