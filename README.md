@@ -19,6 +19,7 @@ Agora, siga os passos abaixo para configurar o ambiente corretamente:
 ```sh
 git clone https://github.com/seu-repositorio/testes-k6.git
 cd testes-k6
+```
 
 ## 🚀 Como Executar os Testes
 
